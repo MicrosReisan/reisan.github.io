@@ -1,0 +1,96 @@
+@font-face {font-family: adam;	src:url('Adam-Bold.ttf');}
+body{
+	font-family:  adam;
+	margin: 0;
+}
+h2{
+	text-align: center;
+	font-size:5vw;
+	margin-top: 5%;
+}
+.reisanld h1{
+	
+	font-size:12.36vw;
+	line-height: 0.8em;
+	
+}
+
+.reisanld{
+	width: 50%;
+	float: left;
+	clear: both;
+
+}
+.navbar {
+  background-color: lightgrey;
+  margin: 0px;
+  color: #ffffff;
+  padding-top: 0.7%;
+  font-weight: 200;
+  height: 8vh;
+  width: 100%;
+  position: fixed;
+}
+.navbar h3 {
+  font-size: 25px;
+  margin: 0%;
+  float: right;
+  padding-top: 10px;
+  padding-right: 4.1%;
+  height: 100%;
+}
+.navbar a {
+  margin-left: 45px;
+  position: relative;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 200;
+}
+.navbar a:hover {
+  color: grey;
+}
+.header img{
+	width: 30%;
+	height: auto;
+	margin-left: 20%;
+	/*border-radius: 25%;*/
+	
+	
+}
+.header{
+	margin: 0%;
+	width: auto;
+	margin-bottom: 5%;
+	
+}
+.about{
+	margin-top: 5%;
+	width: 100%;
+	height: auto;
+	font-size:2.5vw;
+	text-align: center;
+}
+.skill{
+	
+}
+.skilli{
+	
+
+}
+.skilli img{
+	width: 10%;
+	margin: 0 5%;
+}
+.img1 {
+	text-align:center;
+    position:relative;
+	
+  }
+  
+
+.work{
+	display: block;
+	width: 100%;
+	height: auto;
+	background-color: grey;
+}
