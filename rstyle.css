@@ -83,7 +83,7 @@ h2{
 }
 .img1 {
 	text-align:center;
-    position:relative;
+   
 	
   }
   
@@ -92,5 +92,15 @@ h2{
 	display: block;
 	width: 100%;
 	height: auto;
-	background-color: grey;
+	
+}
+
+.footer{
+	text-align: center;
+	font-size: 3vw;
+	background-color: lightgrey;
+	padding: 5% 0;
+}
+.footer h6{
+	margin: 0;
 }
