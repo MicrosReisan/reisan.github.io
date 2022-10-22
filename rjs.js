@@ -1,11 +1,19 @@
 
 $(document).ready(function() {
+    $('.header').each( function(i){
+            
+            
+                
+        $(this).animate({'opacity':'1'},500);
+        $('body').animate({'background-color':'grey'},500);    
+   
     
+}); 
     /* Every time the window is scrolled ... */
     $(window).scroll( function(){
 		
         /* Check the location of each desired element */
-        $('p').each( function(i){
+        $('.about').each( function(i){
             
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -18,7 +26,7 @@ $(document).ready(function() {
             }
             
         }); 
-		$('video').each( function(i){
+        $('.skill').each( function(i){
             
             var bottom_of_object = $(this).offset().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -27,13 +35,11 @@ $(document).ready(function() {
             if( bottom_of_window > bottom_of_object ){
                 
                 $(this).animate({'opacity':'1'},500);
-                    
+                $('body').animate({'background-color':'grey'},500);    
             }
             
         }); 
-		
-		
-    
+        
     });
     
 });

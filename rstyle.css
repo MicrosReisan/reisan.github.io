@@ -6,7 +6,10 @@ body{
 h2{
 	text-align: center;
 	font-size:5vw;
-	
+	padding: 1%  0;
+	margin: 10vh;
+	background: rgb(175,175,175);
+	background: radial-gradient(circle, rgba(175,175,175,0.5718662464985995) 0%, rgba(149,149,149,0) 55%);
 }
 .reisanld h1{
 	
@@ -56,21 +59,25 @@ h2{
 	
 }
 .header{
+	opacity: 0;
 	margin: 0%;
 	width: auto;
 	margin-bottom: 5%;
 	
 }
 .about{
+	opacity: 0;
 	padding-top: 2%;
 	margin-top: 5%;
-	width: 100%;
+	margin: auto;
+	width: 90%;
 	height: auto;
 	font-size:2.5vw;
 	text-align: center;
 	margin-bottom: 2%;
 }
 .skill{
+	opacity: 0;
 	padding-top: 2%;
 	margin-bottom: 2%;
 }
@@ -90,6 +97,7 @@ h2{
   
 
 .work{
+	
 	padding-top: 2%;
 	display: block;
 	width: 100%;
@@ -103,7 +111,7 @@ h2{
  	overflow: auto;
 	cursor: grab;
  	white-space: nowrap;
-	max-height: 40vh;
+	max-height: 42vh;
 	padding: 0 1%;
 }
 /* .scroll img{
@@ -125,21 +133,38 @@ h2{
 .square{
 	width: 	17.8%;
 }
+
+.portrait :hover{
+	width: 12%;
+}
+.landscapee:hover{
+	width: 28.5%;
+	
+}
+.landscape:hover{
+	width: 33.5%;
+	
+}
+.square:hover{
+	width: 	19.8%;
+}
 .uasmcs{
 	text-align: center;
 	padding-top: 1%;
-	background-color: lightgray;
-	border-radius: 5%;
+	background: rgb(175,175,175);
+	background: linear-gradient(180deg, rgba(175,175,175,1) 49%, rgba(149,149,149,0) 100%);
+	border-radius:2.5%;
 	width: 90%;
 	margin: auto;
+	padding-bottom: 2%;
 	
 }
 
 .footer{
 	text-align: center;
-	font-size: 3vw;
+	font-size: 2.5vh;
 	background-color: lightgrey;
-	padding: 5% 0;
+	padding: 2% 0;
 }
 .footer h6{
 	margin: 0;
