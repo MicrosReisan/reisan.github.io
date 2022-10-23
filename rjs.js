@@ -44,17 +44,19 @@ $(document).ready(function() {
     
 });
 
-var a=1;
+var a=1;w
 function darkmode(){
   var change=document.body
+  document.getElementById("pp").src
   if(a%2==1){
     change.classList.remove("default");
     change.classList.toggle("darkmode");
-    
+    document.getElementById("pp").src="foto3.png";
   }
   else if(a%2==0){
     change.classList.remove("darkmode");
     change.classList.toggle("default");
+    document.getElementById("pp").src="foto2.png";
   }
   a++;
 }
