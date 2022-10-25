@@ -5,7 +5,7 @@ body{
 	margin: 0;
 }
 h2{
-	font-family: adam;
+	/* font-family: adam; */
 	text-align: center;
 	font-size:5vw;
 	padding: 1%  0;
@@ -30,7 +30,7 @@ p {
 }
 
 .reisanld h1{
-	font-family: adam;
+	/* font-family: adam; */
 	font-size:12.36vw;
 	line-height: 0.8em;
 	
@@ -72,7 +72,7 @@ p {
 	height: auto;
 	margin-left: 20%;
 	/*border-radius: 25%;*/
-	
+	transition: all 0.2s;
 	
 }
 .header{
