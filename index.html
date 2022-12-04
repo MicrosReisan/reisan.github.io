@@ -5,27 +5,39 @@
   <title>Reisan's Portofolio</title>
   <link rel="stylesheet" href="rstyle.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+ 
   <script src="rjs.js"></script>
+ 
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </head>
 <body>
-  <div class="navbar" >
-      <h3>
-        <a href="#home">HOME  </a>
-        <a href="#about">ABOUT  </a> 
-        <a href="#skill">SKILL  </a> 
-        <a href="#work">WORK  </a>
-        <a onclick="darkmode()">DARK MODE</a>
-      </h3>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Reisan Lewi Damara</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#home">HOME <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#about">ABOUT</a>
+        <a class="nav-item nav-link" href="#skill">SKILL</a>
+        <a class="nav-item nav-link" href="#work">WORK</a>
+      </div>
     </div>
+  </nav>
+ 
 <div class="header"id="home" >
 	<div class="reisanld"><h1> REISAN LEWI DAMARA</h1></div>
-  <img src="foto2.png" id="pp">
+  <img src="foto3.png" class="pp">
 </div>
 <div class="about" id="about">
   <h2>ABOUT</h2>
   <p>HI! My name is Reisan Lewi Damara<br><br>
     I am a student at Bina Nusantara University 
-    majoring in computer science with current GPA 3.67. 
+    majoring in computer science with current GPA 3.60. 
     I can also use several programming languages such as HTML, CSS, JavaScript, Java, C++, and also basic Swift.
     <br><br>I like working in the design field such as basic 3D photo and video editing.
     <br>I have a great curiosity when solving problems.
@@ -56,8 +68,25 @@
     <div class="uasmcs">
       <a href="https://www.figma.com/file/1QCCleVB6MThzfYroxOLqb/UAS-MCS?node-id=9%3A71">
         <h1>User Interface Design</h1></a>
+        
     <div class="scroll">
-      <img src="page1.png" alt="page1" class="portrait">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+          <img src="page1.png" alt="page1" class="portrait"></div>
+          <div class="carousel-item"><img src="page2.png" class="d-block w-100" alt="page2" class="portrait"></div>
+          <div class="carousel-item"><img src="page3.png" class="d-block w-100" alt="page3" class="portrait"></div>
+          <div class="carousel-item"><img src="page4.png" class="d-block w-100" alt="page4" class="portrait"></div>
+          <div class="carousel-item"><img src="page5.png" class="d-block w-100" alt="page5" class="portrait"></div>
+          <div class="carousel-item"><img src="page6.png" class="d-block w-100" alt="page6" class="portrait"></div>
+          <div class="carousel-item"><img src="page7.png" class="d-block w-100" alt="page7" class="portrait"></div>
+          <div class="carousel-item"><img src="page8.png" class="d-block w-100" alt="page8" class="portrait"></div>
+          <div class="carousel-item"><img src="page9.png" class="d-block w-100" alt="page9" class="portrait"></div>
+          <div class="carousel-item"><img src="page10.png" class="d-block w-100" alt="page10" class="portrait"></div>
+        </div>
+        
+      </div>
+      <!-- <img src="page1.png" alt="page1" class="portrait">
       <img src="page2.png" alt="page2" class="portrait">
       <img src="page3.png" alt="page3" class="portrait">
       <img src="page4.png" alt="page4" class="portrait">
@@ -66,7 +95,7 @@
       <img src="page7.png" alt="page7" class="portrait">
       <img src="page8.png" alt="page8" class="portrait">
       <img src="page9.png" alt="page9" class="portrait">
-      <img src="page10.png" alt="page10" class="portrait">
+      <img src="page10.png" alt="page10" class="portrait"> -->
     </div>
     <h3>This project was that done for the 4th-semester final exam regarding applications for employee check-in checkouts by taking photos around the workplace.
       The design was made simple with white color as the base using Figma as the medium. The concept taken is simple and clean.</h3>
@@ -75,25 +104,30 @@
   <div class="uasmcs">
     <a href="">
       <h1>BINECHA</h1></a>
-  <div class="scroll">
-    <img src="b1.png" alt="page1" class="portrait">
-    <img src="b2.png" alt="page2" class="landscapee">
-    <img src="b3.png" alt="page3" class="square">
-    <img src="b4.png" alt="page4" class="square">
-    <img src="b5.png" alt="page5" class="landscape" >
-    <img src="b6.png" alt="page6" class="square" >
-    <img src="b7.png" alt="page7" class="landscape" >
-    <img src="b8.png" alt="page8" class="landscape" >
-    <img src="b9.png" alt="page9" class="landscape" >
-    <img src="b10.png" alt="page10" class="landscape" >
-    <img src="b11.png" alt="page11" class="landscape" >
-  </div>
-  <h3> This design is a poster made for a game competition held by Bina Nusantara University to attract prospective students. galaxy themed poster design and follow the background of the
-    theme and avatars taken from the contested games. Gold colored logo for victory. The designs made are not only posters but all the assets needed
-    by the Binecha event, such as posters, Instagram post feeds, Instagram Stories, certi cates, virtual backgrounds, in-zoom screens, wating screens, in game overlays.
-    the post was posted devided into 6 post in instagram, @Binus_bandung. for the poster and other was shared by line and instagram story. </h3>
-</div>
+      <div class="scroll">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="b1.png" alt="page1" class="portrait"></div>
+            <div class="carousel-item"><img src="b2.png" class="d-block w-100" alt="page2" class="portrait"></div>
+            <div class="carousel-item"><img src="b3.png" class="d-block w-100" alt="page3" class="portrait"></div>
+            <div class="carousel-item"><img src="b4.png" class="d-block w-100" alt="page4" class="portrait"></div>
+            <div class="carousel-item"><img src="b5.png" class="d-block w-100" alt="page5" class="portrait"></div>
+            <div class="carousel-item"><img src="b6.png" class="d-block w-100" alt="page6" class="portrait"></div>
+            <div class="carousel-item"><img src="b7.png" class="d-block w-100" alt="page7" class="portrait"></div>
+            <div class="carousel-item"><img src="b8.png" class="d-block w-100" alt="page8" class="portrait"></div>
+            <div class="carousel-item"><img src="b9.png" class="d-block w-100" alt="page9" class="portrait"></div>
+            <div class="carousel-item"><img src="b10.png" class="d-block w-100" alt="page10" class="portrait"></div>
+            <div class="carousel-item"><img src="b11.png" class="d-block w-100" alt="page10" class="portrait"></div>
+          </div>
+          
+        </div>
   
+</div>
+<h3> This design is a poster made for a game competition held by Bina Nusantara University to attract prospective students. galaxy themed poster design and follow the background of the
+  theme and avatars taken from the contested games. Gold colored logo for victory. The designs made are not only posters but all the assets needed
+  by the Binecha event, such as posters, Instagram post feeds, Instagram Stories, certi cates, virtual backgrounds, in-zoom screens, wating screens, in game overlays.
+  the post was posted devided into 6 post in instagram, @Binus_bandung. for the poster and other was shared by line and instagram story. </h3>
 </div>
 
 <div class="footer">

@@ -24,6 +24,7 @@ h2{
 	background-color: #ffffff;
 	transition: all 0.2s;
 }
+
 p {
 	font-family: sans-serif;
 	font-weight:100;
@@ -40,6 +41,7 @@ p {
 	width: 50%;
 	float: left;
 	clear: both;
+	padding-top: 7.5%;
 
 }
 .navbar {
@@ -70,7 +72,8 @@ p {
 .header img{
 	width: 30%;
 	height: auto;
-	margin-left: 20%;
+	margin-left: 15%;
+	margin-right: 5%;
 	/*border-radius: 25%;*/
 	transition: all 0.2s;
 	
@@ -134,18 +137,26 @@ h3{
 	color: black;
 }
 .scroll {
- 	white-space: nowrap;
+ 	/* white-space: nowrap; */
 	max-height: 42vh;
 	padding: 0 1%;
-	overflow-x: auto;
-	position:sticky;
+	/* overflow-x: auto; */
+	/* position:sticky; */
+}
+.carousel-item img{
+	max-height: 42vh;
+	object-fit:contain;
+}
+.carousel-item .active img{
+	max-height: 42vh;
+	object-fit:contain;
 }
 /* .scroll img{
 	
 	margin: 1% 2.5%;
 } */
 
-.portrait{
+/* .portrait{
 	width: 10%;
 	transform: scale(0.98);
 	transition: all 0.2s;
@@ -183,7 +194,7 @@ h3{
 .square:hover{
 	transition: all 0.2s;
 	transform: scale(1);
-}
+} */
 .uasmcs{
 	text-align: center;
 	padding-top: 1%;
@@ -193,16 +204,26 @@ h3{
 	width: 90%;
 	margin: auto;
 	padding-bottom: 2%;
-	
+	display: block;
 	
 }
 
+.uasmcs h1{
+
+	font-size:4 vh;	
+}
+.uasmcs h3{
+	
+	font-size:2 vh;	
+}
 .footer{
+	display:block;
 	text-align: center;
 	font-size: 2.5vh;
 	background-color: lightgrey;
 	padding: 2% 0;
 	color: black;
+	margin-top: 10%;
 }
 .footer h6{
 	margin: 0;
