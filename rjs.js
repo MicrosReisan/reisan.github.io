@@ -18,10 +18,27 @@ $('.about').each( function(i){
     $('body').animate({'background-color':'grey'},1000); 
     
 });
-    /* Every time the window is scrolled ... */
+  // const head = document.getElementById("#home");
+  // head.addEventListener("click", function(){
+  //   head.scrollIntoView();
+  // })
+  // const skill = document.getElementById("#skill");
+  // skill.addEventListener("click", function(){
+  //   skill.scrollIntoView();
+  // })
+  // const work = document.getElementById("work");
+  // work.addEventListener("click", function(){
+  //   work.scrollIntoView();
+  // })
+  // const about = document.getElementById("#about");
+  // about.addEventListener("click", function(){
+  //   about.animate({ scrollTop: $('#about').offset().top }, 1000);
+  // })
+
+
     $(window).scroll( function(){
 		
-    //     /* Check the location of each desired element */
+  
     //     $('.about').each( function(i){
             
     //         var bottom_of_object = $(this).offset().top + $(this).outerHeight();
@@ -53,7 +70,7 @@ $('.about').each( function(i){
     
 });
 
-var a=1;w
+var a=1;
 function darkmode(){
   var change=document.body
   document.getElementById("pp").src
@@ -71,3 +88,4 @@ function darkmode(){
   }
   a++;
 }
+
