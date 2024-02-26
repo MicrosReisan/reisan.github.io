@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Reisan's Portofolio</title>
+  <link rel="stylesheet" href="rstyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <script src="rjs.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Reisan Lewi Damara's Portoflio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#home" onclick="scrollIntoView()">HOME <span
+            class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#about" onclick="scrollIntoView()">ABOUT</a>
+        <a class="nav-item nav-link" href="#experience" onclick="scrollIntoView()">EXPERIENCE</a>
+      </div>
+    </div>
+  </nav>
+  <div class="section-container">
+    <section class="header" id="home">
+      <div class="foto">
+        <img src="foto.png">
+      </div>
+      <div class="reisanld">
+        <h1> REISAN LEWI DAMARA</h1>
+        <div class="appdev">
+          <span class="bold">Application Developer </span><span>based in </span><span class="bold">Bandung</span>
+        </div>
+      </div>
+      <div class="below">
+        <hr class="half">
+        <a href="https://github.com/ReisanDamara"><img src="github.png"></a>
+        <a href="https://www.instagram.com/reisan_micros?igsh=NTc4MTIwNjQ2YQ=="><img src="insta.png"></a>
+        <a href="https://www.linkedin.com/in/reisan-lewi-damara-83992b223"><img src="linkedin.png"></a>
+        <hr class="halfright">
+      </div>
+    </section>
+    <section class="aboutme" id="about">
+      <h1>ABOUT ME</h1>
+      <div class="twocoll">
+        <div class="coll1">
+          <img src="foto3.png">
+        </div>
+        <div class="coll2">
+          <h2>Hi,My name is Reisan, and I am a dedicated and motivated individual with a strong foundation in computer
+            science. I am a quick learner with a keen eye for detail, and I thrive in fast-paced and collaborative
+            environments. I am committed to staying updated with the latest trends and technologies in the field of
+            software development, and I am always eager to take on new challenges and expand my skill set. I am
+            confident in my ability to contribute to the success of any team, and I am excited about the opportunity to
+            continue growing and making a positive impact in the industry.</h2>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="column">
+          <div class="progress-bar-container">
+            <h2>
+              <label for="webdev">Web Developer</label>
+            </h2>
+            <div class="progress-container">
+              <div class="progress-bar webdev">
+                <progress id="webdev" min="0" max="100" value="80"></progress>
+              </div>
+              <h3 class="text">I have a strong foundation in HTML, CSS, and JavaScript, and I am currently learning
+                Vue.js and React.js. I have also started experimenting with Tailwind CSS.</h3>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="progress-bar-container">
+            <h2>
+              <label for="mobiledev">Mobile Developer</label>
+            </h2>
+            <div class="progress-container">
+              <div class="progress-bar mobiledev">
+                <progress id="mobiledev" min="0" max="100" value="90"></progress>
+              </div>
+              <h3 class="text">I am proficient in developing mobile applications using Android Studio with Java, and I
+                have some experience with Kotlin. Additionally, I am able to create iOS applications using Xcode and
+                Swift.</h3>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="progress-bar-container">
+            <h2>
+              <label for="db">Databases</label>
+            </h2>
+            <div class="progress-container">
+              <div class="progress-bar db">
+                <progress id="db" min="0" max="100" value="70"></progress>
+              </div>
+              <h3 class="text">I have a strong understanding of database concepts and design principles. I am proficient in working with SQL databases and have experience in creating and managing database structures to support application development.</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </section>
+    <section class="experience" id="experience">
+      <h1>EXPERIENCE</h1>
+      <div class="twocoll">
+        <div class="coll1">
+          <div class="test">
+            <div class="wrapper">
+              <div class="image-wrapper">
+                <img class="book-design-image"
+                  src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1306&q=80" />
+              </div>
+              <div class="header-wrapper">
+                <h1>Book Design</h1>
+                <br><br><br><br>
+                <h1>See Project</h1>
+              </div>
+              <div class="header-wrapper2">
+                <h1>Book Design</h1>
+                <br><br><br><br>
+                <h1>See Project</h1>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="coll2">
+          <div class="test">
+            <div class="wrapper">
+              <div class="image-wrapper">
+                <img class="book-design-image"
+                  src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1306&q=80" />
+              </div>
+              <div class="header-wrapper">
+                <h1>Book Design</h1>
+                <br><br><br><br>
+                <h1>See Project</h1>
+              </div>
+              <div class="header-wrapper2">
+                <h1>Book Design</h1>
+                <br><br><br><br>
+                <h1>See Project</h1>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="twocoll">
+        <div class="coll1">
+          <div class="test">
+            <div class="wrapper">
+              <div class="image-wrapper">
+                <img class="book-design-image"
+                  src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1306&q=80" />
+              </div>
+              <div class="header-wrapper">
+                <h1>Book Design</h1>
+                <br><br><br><br>
+                <h1>See Project</h1>
+              </div>
+              <div class="header-wrapper2">
+                <h1>Book Design</h1>
+                <br><br><br><br>
+                <h1>See Project</h1>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="coll2">
+          <div class="test">
+            <div class="wrapper">
+              <div class="image-wrapper">
+                <img class="book-design-image"
+                  src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1306&q=80" />
+              </div>
+              <div class="header-wrapper">
+                <h1>Book Design</h1>
+                <br><br><br><br>
+                <h1>See Project</h1>
+              </div>
+              <div class="header-wrapper2">
+                <h1>Book Design</h1>
+                <br><br><br><br>
+                <h1>See Project</h1>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <div class="footer">
+      <h6><img src="mail.png"> reisan.micros@gmail.com
+        <br><img src="phone.png">+62-858-6400-8030<br>
+        <hr>
+        <a href="https://github.com/ReisanDamara"><img src="gitwhite.png"></a>
+        <a href="https://www.instagram.com/reisan_micros?igsh=NTc4MTIwNjQ2YQ=="><img src="instawhite.png"></a>
+        <a href="https://www.linkedin.com/in/reisan-lewi-damara-83992b223"><img src="inwhite.png"></a>
+      </h6>
+
+    </div>
+</body>
+
+</html>
+<!--https://codepen.io/bobbykorec/pen/yLgRwRx
+https://codepen.io/dazld/embed/npydRK?default-tab=css%2Cresult&height=265&name=cp_embed_21&pen-title=Logo%20playtime&slug-hash=Bmfan&theme-id=dark&user=dazld#result-box
+-->
