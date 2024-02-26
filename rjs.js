@@ -88,3 +88,7 @@ function darkmode(){
   }
   a++;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9147b033ac4e7e6b1e2c950afaca3ccf6d1b15d7
