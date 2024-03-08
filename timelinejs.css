@@ -1,7 +1,5 @@
-body{
-    margin-top:20px;
-    background:#f3f3f3;
-}
+
+
 /*
 Timeline
 */
@@ -61,7 +59,9 @@ Timeline
     display: inline-block;
     margin: 0;
 }
-
+.vtimeline-content img{
+    height: auto;
+}
 .vtimeline-content p {
     font-size: 0.9em;
     margin: 0;
@@ -101,8 +101,9 @@ Timeline
     position: absolute;
     left: 0;
     top: 10px;
-    font-weight: 400;
+ 
     color: #374054;
+    font-weight: bold;
 }
 .post-meta {
     padding-top: 15px;
