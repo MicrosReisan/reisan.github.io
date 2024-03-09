@@ -13,11 +13,10 @@ img {
 
 section {
   width: 100%;
-  min-height: calc(80vh - (110vw/-12));
 }
 
 .header {
-  padding: 5% 10% 0% 10%;
+  padding: 0% 10% 0% 10%;
   justify-content: center;
 
 }
@@ -36,8 +35,6 @@ section {
   float: right;
   width: 100%;
   height: auto;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
 }
 
 .header .reisanld {
@@ -54,8 +51,8 @@ section {
   /* the thickness of the line */
   --c: #22303d;
   /* the color */
-
-  color: #0000;
+  text-shadow: 2px 2px 0px rgba(255,255,255,1);
+  color: #000;
   padding-block: var(--b);
   background:
     linear-gradient(var(--c) 50%, #000 0) 0% calc(100% - var(--_p, 0%))/100% 200%,
@@ -73,11 +70,13 @@ section {
 .appdev span {
   font-size: 2vw;
   letter-spacing: 0;
+  text-shadow: 2px 2px 0px rgba(255,255,255,1);
 }
 
 .header .reisanld .appdev .bold {
   font-weight: bold;
   width: auto;
+  text-shadow: 2px 2px 0px rgba(255,255,255,1);
 }
 
 .below {
@@ -93,7 +92,7 @@ section {
 .below img {
   width: auto;
   height: auto;
-
+  TRANSFORM: SCALE(1.5);
 }
 
 .below a {
@@ -122,8 +121,9 @@ section {
 
 .aboutme img {
   float: left;
-  width: 50%;
+  width: inherit;
   height: auto;
+  margin-right: 10px;
 }
 
 .twocoll {
@@ -153,6 +153,7 @@ section {
   width: 100%;
   display: flexbox;
   font-size: 1.5vw;
+  padding-left: 10px;
 }
 
 .experience {
@@ -261,14 +262,7 @@ hr {
   transition: all 200ms ease-in-out;
 }
 
-.experience img {
-  height: 300px;
-  width: 450px;
-  object-fit: cover;
-  object-position: top;
 
-  transition: all 200ms ease-in-out;
-}
 
 .book-design-image {
   object-position: center;
