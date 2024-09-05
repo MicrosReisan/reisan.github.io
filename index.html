@@ -5,20 +5,17 @@
   <meta charset="utf-8">
   <title>Reisan's Portofolio</title>
   <link rel="stylesheet" href="rstyle.css">
-  <link rel="stylesheet" href="timelinejs.css">
+  <!-- <link rel="stylesheet" href="timelinejs.css"> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   <script src="rjs.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -34,12 +31,11 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link active" href="#home" onclick="scrollIntoView()">HOME <span
             class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#about" onclick="scrollIntoView()">ABOUT</a>
-        <a class="nav-item nav-link" href="#experience" onclick="scrollIntoView()">EXPERIENCE</a>
+        <a class="nav-item nav-link" href="#Portofolio" onclick="scrollIntoView()">PORTOFOLIO</a>
       </div>
     </div>
   </nav>
-  <div class="section-container">
+  <div class="section">
     <section class="header" id="home">
       <div class="foto">
         <img src="foto.png">
@@ -58,152 +54,95 @@
         <hr class="halfright">
       </div>
     </section>
-    <section class="aboutme" id="about">
-      <h1>ABOUT ME</h1>
-      <div class="twocoll">
-        <div class="coll1">
-          <img src="foto3.png">
+    <section class="portofolio" id="Portofolio">
+      <h1>Portofolio</h1>
+      <div class="three">
+        <div id="container">
+          <div class="card">
+            <img src="talia.png" alt="psikologtalia.my.id">
+            <div class="card-content">
+              <h2>psikologtalia.my.id</h2>
+              <p>This project is a web application designed for showcasing a portfolio. It has been developed using
+                three
+                core web technologies: HTML, CSS, and JavaScript.</p>
+              <a href="http://psikologtalia.my.id" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="teddit.png" alt="kogi">
+            <div class="card-content">
+              <h2>Teddit</h2>
+              <p>This project is an iOS application developed using Swift. The app functions as a forum, enabling users
+                to create and participate in discussions, post topics, and interact with others through threads and
+                messages.</p>
+              <a href="https://github.com/Xsel20-v/kogi-fe" class="btn">View Project</a>
+            </div>
+          </div>
         </div>
-        <div class="coll2">
-          <h2>Hi,My name is Reisan, I am a dedicated and motivated individual with a strong foundation in computer
-            science. I am a quick learner with a keen eye for detail, and I thrive in fast-paced and collaborative
-            environments. I am committed to staying updated with the latest trends and technologies in the field of
-            software development, and I am always eager to take on new challenges and expand my skill set. I am
-            confident in my ability to contribute to the success of any team, and I am excited about the opportunity to
-            continue growing and making a positive impact in the industry.</h2>
+        <div id="container">
+          <div class="card">
+            <img src="hit.png" alt="Project 3">
+            <div class="card-content">
+              <h2>Hit Monster</h2>
+              <p>This project is an augmented reality (AR) application developed for a final project. It was created
+                using Unity and coded using C#.</p>
+              <a href="https://binusianorg-my.sharepoint.com/personal/reisan_damara_binus_ac_id/_layouts/15/guestaccess.aspx?share=ElZHSQ2Wr2pBs7Bu4l8fEeUBpuvNC3Qb_DYMBW9GE5ylkA&e=Ac89aZ" class="btn">View Project</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/000/583/611/small/location.jpg" alt="Project 3">
+            <div class="card-content">
+              <h2>Maps App</h2>
+              <p>This project is an Android application developed using Java. The application is designed to locate specific points on a map based on coordinates and save them. </p>
+              <a href="https://github.com/ReisanDamara/Lec-GSlC-Maps-Aplication" class="btn">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div id="container">
+          <div class="card">
+            <img src="kogi.png" alt="kogi">
+            <div class="card-content">
+              <h2>Kogi</h2>
+              <p>This project is an iOS application designed to assist dental interns (also known as "koas dokter gigi")
+                in finding patients. This iOS application, developed using Swift, features a backend built with Node.js
+                for API and Websocket
+                and PostgreSQL, and is designed to help dental interns find and manage patient information.</p>
+              <a href="https://github.com/Xsel20-v/kogi-fe" class="btn" style="margin-bottom:10px ;">View Project Frontend</a>
+              <a href="https://github.com/ReisanDamara/KOGI_API" class="btn" style="margin-bottom:10px ;">View Project API</a>
+              <a href="https://github.com/ReisanDamara/KOGI_WS" class="btn">View Project WS</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="insorma.jpg" alt="Project 2">
+            <div class="card-content">
+              <h2>Insorma</h2>
+              <p>This project is an application developed using Android Studio with Java, designed as an online store
+                for
+                furniture.</p>
+              <a href="https://github.com/NovandyS/InSOrma" class="btn">View Project</a>
+            </div>
+          </div>
         </div>
       </div>
-      <hr>
-      <div class="row">
-        <div class="column">
-          <div class="progress-bar-container">
-            <h2>
-              <label for="webdev">Web Developer</label>
-            </h2>
-            <div class="progress-container">
-              <div class="progress-bar webdev">
-                <progress id="webdev" min="0" max="100" value="80"></progress>
-              </div>
-              <h3 class="text">I have a strong foundation in HTML, CSS, and JavaScript, and I am currently learning
-                Vue.js and React.js. I have also started experimenting with Tailwind CSS.</h3>
-            </div>
-          </div>
+    </section>
+    <section class="about">
+      <div class="aboutt">
+        <div class="box">
+          <img src="pasfoto.jpg">
         </div>
-        <div class="column">
-          <div class="progress-bar-container">
-            <h2>
-              <label for="mobiledev">Mobile Developer</label>
-            </h2>
-            <div class="progress-container">
-              <div class="progress-bar mobiledev">
-                <progress id="mobiledev" min="0" max="100" value="90"></progress>
-              </div>
-              <h3 class="text">I am proficient in developing mobile applications using Android Studio with Java, and I
-                have some experience with Kotlin. Additionally, I am able to create iOS applications using Xcode and
-                Swift.</h3>
-            </div>
-          </div>
-        </div>
-        <div class="column">
-          <div class="progress-bar-container">
-            <h2>
-              <label for="db">Databases
-              </label>
-            </h2>
-            <div class="progress-container">
-              <div class="progress-bar db">
-                <progress id="db" min="0" max="100" value="70"></progress>
-              </div>
-              <h3 class="text">I have a strong understanding of database concepts and design principles. I am proficient in working with SQL databases and have experience in creating and managing database structures to support application development.</h3>
-            </div>
-          </div>
-        </div>
-      </div>
+        <div class="box2">
+          <h1>Reisan Lewi Damara</h1>
 
-      
-     
-    </section>
-    <section class="experience" id="experience">
-      <h1>EXPERIENCE</h1>
-      <div class="container mb80">
-        <div class="page-timeline">
-            <div class="vtimeline-point">
-                <div class="vtimeline-icon">
-                </div>
-                <div class="vtimeline-block">
-                    <span class="vtimeline-date">2021</span><div class="vtimeline-content">
-                        <a href="#"><img src="universitas_bina_nusantara_logo.webp" alt="" class="img-fluid mb20"></a>
-                        <br><a href="#"><h3>Bina Nusantara University</h3></a>
-                        <p>
-                          As a student at Bina Nusantara University, I was immediately involved in various academic and non-academic activities which helped in my personal development and understanding of the world of education.    
-                        </p>
-                      </div>
-                </div>
-            </div>
-            <div class="vtimeline-point">
-              <div class="vtimeline-icon">
-              </div>
-              <div class="vtimeline-block">
-                  <span class="vtimeline-date">2022</span><div class="vtimeline-content">
-                      <a href="#"><img src="1630666242293.jpg" alt="" class="img-fluid mb20"></a>
-                      <br><a href="#"><h3>Design Coordinator HIMTI BINUS University</h3></a>
-                      <p>
-                        as a Design Coordinator for Binus Esport Championship (BINECHA) 2022</p>
-                    </div>
-              </div>
-          </div>
-          <div class="vtimeline-point">
-            <div class="vtimeline-icon">
-            </div>
-            <div class="vtimeline-block">
-                <span class="vtimeline-date">2022</span><div class="vtimeline-content">
-                    <a href="#"><img src="1630666242293.jpg" alt="" class="img-fluid mb20"></a>
-                    <a href="#"><h3>BURAM Division Coordinator HIMTI BINUS University</h3></a>
-                    <p>
-                      BURAM Division is a division that manages sponsoring TECHNO events as well as EXPO held by Bina Nusantara University as representation of HIMTI
-                    </p>
-                  </div>
-            </div>
+          <h2>Hello, I am an application developer and a graduate of Bina Nusantara University. I have interned at
+            PT.Bank
+            Central Asia
+            as a full-stack developer. I am proficient in web programming languages (HTML, CSS, JavaScript) and mobile
+            development (Java and Swift). Additionally, I am skilled in both front-end and back-end development, as well
+            as database management.</h2>
         </div>
-          <div class="vtimeline-point">
-            <div class="vtimeline-icon">
-            </div>
-            <div class="vtimeline-block">
-                <span class="vtimeline-date">2023</span><div class="vtimeline-content">
-                    <a href="#"><img src="Bank_Central_Asia.svg.webp" alt="" class="img-fluid mb20"></a>
-                    <br><a href="#"><h3>BCA Internship Program</h3></a>
-                    <p>
-                      I had the opportunity to intern at PT. Bank Central Asia, Tbk. I was placed in the KCK division whose focus was managing corporate credit transactions. There, I was trusted as a Full Stack developer using the Low-Code based Outsystems platform to develop and build five applications. Apart from developing applications, I am also active in participating in various testing and meetings to ensure the quality of the applications I create.</p>
-                  </div>
-            </div>
-        </div>
-       
-        </div>
-    </div>
-<!--
-        <div class="coll1">
-          <div class="test">
-            <div class="wrapper">
-              <div class="image-wrapper">
-                <img class="book-design-image"
-                  src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1306&q=80" />
-              </div>
-              <div class="header-wrapper">
-                <h1>BCA Internship</h1>
-                <br><br><br><br>
-                <h1>See Project</h1>
-              </div>
-              <div class="header-wrapper2">
-                <h1>BCA Internship</h1>
-                <br><br><br><br>
-                <h1>See Project</h1>
-              </div>
-            </div>
-          </div>   
       </div>
-  -->
     </section>
-    <div class="footer">
+    <section class="footer">
       <h6><img src="mail.png"> reisan.micros@gmail.com
         <br><img src="phone.png">+62-858-6400-8030<br>
         <hr>
@@ -212,7 +151,7 @@
         <a href="https://www.linkedin.com/in/reisan-lewi-damara-83992b223"><img src="inwhite.png"></a>
       </h6>
 
-    </div>
+    </section>
 </body>
 
 </html>
