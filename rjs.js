@@ -1,4 +1,20 @@
 
+var container = document.querySelector('#container');
+var msnry = new Masonry( container, {
+  // options
+  itemSelector: '.card',
+  columnWidth: '.card', // The column width should match the width of the items
+  percentPosition: true
+});
+
+var three = document.querySelector('.three');
+var msnry = new Masonry( three, {
+  // options
+  itemSelector: '#container',
+  columnWidth: '#container', // The column width should match the width of the items
+  percentPosition: true
+});
+
 $(document).ready(function() {
     $('.header').each( function(i){
 
@@ -88,3 +104,4 @@ function darkmode(){
   }
   a++;
 }
+
